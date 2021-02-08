@@ -1,9 +1,10 @@
 import React from 'react';
 import registerServiceWorker from './registerServiceWorker';
 import { render } from 'react-dom';
+import './main.css';
 
-import HelloWorld from './HelloWorld';
+import ReactPwaComponent from './ReactPwaComponent';
 
-render(<HelloWorld />, document.getElementById('root'));
+render(<ReactPwaComponent />, document.getElementById('root'));
 
 registerServiceWorker();  // Runs register() as default function
